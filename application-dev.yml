@@ -1,1 +1,10 @@
+spring:
+  application:
+    name: Confige-Dev
 
+eureka:
+  client:
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
